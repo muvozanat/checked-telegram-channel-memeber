@@ -44,17 +44,17 @@ starter.start(async (ctx) => {
 starter.action(/[a-z]/, async (ctx) => {
     switch (ctx.match['input']) {
         case 'uz':
-            ctx.session.lang = ctx?.match['input']
+            ctx.session.lang = ctx.match['input']
             lang.map(langs => language.push(langs[ctx.session.lang]))
             ctx.deleteMessage()
             break;
         case 'ru':
-            ctx.session.lang = ctx?.match['input']
+            ctx.session.lang = ctx.match['input']
             lang.map(langs => language.push(langs[ctx.session.lang]))
             ctx.deleteMessage()
             break;
         case 'en':
-            ctx.session.lang = ctx?.match['input']
+            ctx.session.lang = ctx.match['input']
             lang.map(langs => language.push(langs[ctx.session.lang]))
             ctx.deleteMessage()
             break;

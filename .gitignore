@@ -1,0 +1,5 @@
+#Keraksiz papka
+node_modules
+
+#konfiguratsiya
+.env
